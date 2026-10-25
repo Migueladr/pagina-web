@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alimentos ricos en hierro para combatir la anemia</title>
+  <meta name="description" content="Lista de alimentos ricos en hierro, cuánto aportan por porción y cómo combinarlos para absorberlo mejor.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Aquí va el script de AdSense cuando te aprueben -->
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>Alimentos ricos en hierro para combatir la anemia</h1>
+      <p class="lead">Qué comer para subir tu hierro, cuánto aporta cada alimento y cómo combinarlo para que tu cuerpo lo aproveche mejor.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="intro">
+      <h2>Hierro hemo y no hemo: la diferencia que importa</h2>
+      <p>El hierro de origen animal (hemo) se absorbe mucho mejor que el de origen vegetal (no hemo). Eso no significa que las plantas no sirvan: con las combinaciones correctas, legumbres y verduras aportan una parte importante del hierro que necesitas.</p>
+    </section>
+
+    <section id="alimentos">
+      <h2>Tabla de alimentos por contenido de hierro</h2>
+      <p class="nota">Valores aproximados en miligramos por 100 g de alimento cocido o listo para comer. Varían según la fuente y la preparación.</p>
+
+      <div class="filtros" role="group" aria-label="Filtrar alimentos">
+        <button class="filtro activo" data-tipo="todos">Todos</button>
+        <button class="filtro" data-tipo="animal">Origen animal</button>
+        <button class="filtro" data-tipo="vegetal">Origen vegetal</button>
+      </div>
+
+      <ul id="lista" class="lista"></ul>
+    </section>
+
+    <section id="absorcion">
+      <h2>Cómo absorber mejor el hierro</h2>
+      <div class="dos-col">
+        <div>
+          <h3>Lo que ayuda</h3>
+          <ul>
+            <li>Combina legumbres y verduras con vitamina C: limón, naranja, pimiento, tomate o kiwi.</li>
+            <li>Cocina en sartenes o cacerolas de hierro fundido.</li>
+            <li>Incluye algo de carne o pescado en la misma comida: mejora la absorción del hierro vegetal.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Lo que lo reduce</h3>
+          <ul>
+            <li>Café y té durante las comidas o justo después: espera al menos una hora.</li>
+            <li>Lácteos y suplementos de calcio en la misma comida rica en hierro.</li>
+            <li>Exceso de salvado y cereales integrales crudos en la misma comida.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2>Ejemplo de menú de un día</h2>
+      <dl class="menu">
+        <dt>Desayuno</dt><dd>Avena con semillas de calabaza y una naranja.</dd>
+        <dt>Almuerzo</dt><dd>Lentejas con espinacas, arroz y jugo de limón.</dd>
+        <dt>Merienda</dt><dd>Un puñado de frutos secos y una fruta rica en vitamina C.</dd>
+        <dt>Cena</dt><dd>Carne magra salteada con pimiento y ensalada de tomate.</dd>
+      </dl>
+    </section>
+
+    <section id="aviso" class="aviso">
+      <h2>Importante</h2>
+      <p>Esta página es informativa y no sustituye la consulta médica. La anemia puede tener varias causas y solo un análisis de sangre la confirma. No tomes suplementos de hierro sin indicación de un profesional: el exceso también es perjudicial. Consulta a tu médico si sientes cansancio persistente, mareos, palidez o falta de aire.</p>
+      <p class="fuentes">Referencias para contrastar: Organización Mundial de la Salud, Mayo Clinic y los National Institutes of Health (Office of Dietary Supplements).</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap"><p>© <span id="anio"></span> · Información de salud con fines educativos.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
